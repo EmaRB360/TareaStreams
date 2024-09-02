@@ -39,7 +39,7 @@ public class Main {
                 .sorted() // Ordena alfabéticamente
                 .collect(Collectors.toList()); // Recoge en una nueva lista
 
-        System.out.println("Títulos de las Películas ordenados alfabéticamente:");
+        System.out.println("Títulos de las películas ordenados alfabéticamente:");
         titulosOrdenados.forEach(System.out::println);
     }
 
